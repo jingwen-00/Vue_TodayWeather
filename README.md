@@ -14,7 +14,7 @@ Today's Weather is a web application built using Vue.js. The application serves 
 
 - <b>Delete History:</b> Users have the option to delete weather records from the search history list.
 
--<b>Responsive Design:</b> The application is designed to be responsive and work well on various devices, adapting its layout accordingly.
+- <b>Responsive Design:</b> The application is designed to be responsive and work well on various devices, adapting its layout accordingly.
 
 <br/>
 
@@ -44,10 +44,10 @@ npm run build
 
 ## Usage
 
-1. Default (Geo Location): It will automatically uses the user's geolocation to display the weather of their current location.
+1. <b>Default (Geo Location):</b> It will automatically uses the user's geolocation to display the weather of their current location.
 
-2. Search Bar: Users can manually input the name of a city or country into the search bar to get weather information for that location. The search button remains disabled until there's a non-empty input.
+2. <b>Search Bar:</b> Users can manually input the name of a city or country into the search bar to get weather information for that location. The search button remains disabled until there's a non-empty input.
 
-3. Delete Search Record: Users can remove a specific weather search record from the search history list by clicking the delete icon.
+3. <b>Delete Search Record:</b> Users can remove a specific weather search record from the search history list by clicking the delete icon.
 
-4. Search History List: Users can revisit previous searches by clicking on the search icon.
+4. <b>Search History List:</b> Users can revisit previous searches by clicking on the search icon.
