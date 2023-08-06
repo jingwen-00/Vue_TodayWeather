@@ -184,13 +184,13 @@ export default {
           },
           (error) => {
             // if geoLocation is not supported; default set lat, lng value
-            this.searchLatLng(1.3521, 103.8198);
+            this.searchLatLng(1.2732, 103.8453);
             console.log(error);
           }
         );
       } else {
         // if geoLocation is not supported; default set lat, lng value
-        this.searchLatLng(1.3521, 103.8198);
+        this.searchLatLng(1.2732, 103.8453);
         console.log("Geolocation is not supported by this browser.");
       }
     },
@@ -356,7 +356,8 @@ export default {
 
   .floating-image-container {
     width: 45% !important;
-    top: -80px !important;
+    top: -70px !important;
+    right: 0% !important;
   }
 }
 </style>
